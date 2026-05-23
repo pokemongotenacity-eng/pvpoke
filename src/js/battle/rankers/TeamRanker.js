@@ -394,7 +394,7 @@ var RankerMaster = (function () {
 				pokemon.startEnergy = Math.min(pokemon.fastMove.energyGain * fastMoveCount, 100);
 				pokemon.startCooldown = settings.startCooldown;
 				pokemon.optimizeMoveTiming = settings.optimizeMoveTiming;
-				pokemon.startStatBuffs = settings.startStatBuffs;
+				pokemon.startStatBuffs = settings.startStatBuffs;				
 
 				if(settings.bait != defaultSettings.bait || settings.startCooldown != defaultSettings.startCooldown ||
 					settings.optimizeMoveTiming != defaultSettings.optimizeMoveTiming || settings.startStatBuffs[0] != defaultSettings.startStatBuffs[0] || settings.startStatBuffs[1] != defaultSettings.startStatBuffs[1]){
